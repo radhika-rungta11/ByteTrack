@@ -3,7 +3,7 @@ import os
 
 
 """
-cd datasets
+cd datasets  
 mkdir -p mix_mot_ch/annotations
 cp mot/annotations/val_half.json mix_mot_ch/annotations/val_half.json
 cp mot/annotations/test.json mix_mot_ch/annotations/test.json
