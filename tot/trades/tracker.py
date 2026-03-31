@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity as cosine
 
 class Tracker(object):
     def __init__(self, opt): 
-        self.opt = opt
+        self.opt = opt  
         self.reset()
         self.nID = 10000
         self.alpha = 0.1
