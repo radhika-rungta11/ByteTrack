@@ -13,7 +13,7 @@ from .mot_online import matching
 
 class STrack(BaseTrack):
     shared_kalman = KalmanFilter()
-    def __init__(self, tlwh, score):
+    def __init__(self, tlwh, score): 
 
         # wait activate
         self._tlwh = np.asarray(tlwh, dtype=np.float)
