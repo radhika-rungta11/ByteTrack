@@ -2,7 +2,7 @@ import numpy as np
 from sklearn.utils.linear_assignment_ import linear_assignment
 import copy
 from sklearn.metrics.pairwise import cosine_similarity as cosine
-
+ 
 
 class Tracker(object):
     def __init__(self, opt): 
